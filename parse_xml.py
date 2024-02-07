@@ -1,5 +1,9 @@
-#To extract  number of metabolites, Genes and reactions from Multiple reconstructed draft models
-
+#!/usr/bin/python
+'''
+To extract  number of metabolites, Genes and reactions from Multiple reconstructed draft models
+Input files are xml files 
+output willbe csv file
+'''
 from cameo import load_model
 import os
 import warnings
