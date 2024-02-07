@@ -1,3 +1,5 @@
+#To extract  number of metabolites, Genes and reactions from Multiple reconstructed draft models
+
 from cameo import load_model
 import os
 import warnings
